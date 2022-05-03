@@ -1,46 +1,54 @@
 /* main pic*/
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Purple+Purse&family=Signika+Negative&display=swap'); 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Purple+Purse&family=Signika+Negative&display=swap');
+
+body {
     /* overflow: auto; */
 }
-h1{
+
+h1 {
     font-family: 'Purple Purse';
     font-size: 4.5rem;
     line-height: 1.2;
-    color:rgba(0,0,0,.1);
+    color: rgba(0, 0, 0, .1);
 }
-@media all and (max-width:992px){
-    h1{
+
+@media all and (max-width:992px) {
+    h1 {
         font-size: 3rem;
         line-height: 1.6;
     }
 }
-@media all and (max-width:576px){
-    h1{
+
+@media all and (max-width:576px) {
+    h1 {
         font-size: 2rem;
         line-height: 1.2;
     }
 }
 
-a{text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
-h2{
-font-size: 1.5rem;
-font-family: 'Marcellus SC', serif;
-} 
-@media all and (max-width:992px){
-    h2{
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Marcellus SC', serif;
+}
+
+@media all and (max-width:992px) {
+    h2 {
         font-size: 1.25rem;
     }
 }
-h3{
+
+h3 {
     font-size: 2.125rem;
     font-family: 'Purple Purse'
 }
 
-.main{
+.main {
     width: 100%;
-    background-size:100%;
+    background-size: 100%;
     padding-bottom: 48%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -48,7 +56,8 @@ h3{
     position: relative;
     /* margin-bottom: 14px; */
 }
-.bigtitle h1{
+
+.bigtitle h1 {
     font-family: 'Marcellus SC', serif;
     /* color: white; */
     font-size: 4rem;
@@ -58,178 +67,199 @@ h3{
     line-height: 1.4;
     color: rgb(255, 255, 255);
     top: 60%;
-    left:10%;
+    left: 10%;
 }
 
-@media all and (max-width:1200px)
-{
-    .bigtitle h1{
+@media all and (max-width:1200px) {
+    .bigtitle h1 {
         font-size: 3rem;
 
     }
 }
-@media all and (max-width:768px){
-    .bigtitle h1{
+
+@media all and (max-width:768px) {
+    .bigtitle h1 {
         font-size: 2rem;
         line-height: 1.4;
     }
 }
 
 
-.bigtitle.two h1{
-top: 40%;
-left:70%;
+.bigtitle.two h1 {
+    top: 40%;
+    left: 70%;
 }
 
-@media all and (max-width:992px){
-    .bigtitle.two h1{
+@media all and (max-width:992px) {
+    .bigtitle.two h1 {
         font-size: 1rem;
-        left:65% ;
-    }
-}
-@media all and (max-width:576px){
-    .bigtitle .two h1{
-        font-size: 1rem;
-        line-height: 1.2;
-    }
-    .bigtitle h1{
-        font-size: 1rem;
-        line-height: 1.2;
+        left: 65%;
     }
 }
 
-.bigtitle.three h1{
-top:15%;
-left: 12%;
+@media all and (max-width:576px) {
+    .bigtitle .two h1 {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .bigtitle h1 {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
 }
-.alldot{
+
+.bigtitle.three h1 {
+    top: 15%;
+    left: 12%;
+}
+
+.alldot {
     display: flex;
     justify-content: center;
     padding-top: 60px;
 }
-.dot{
-    width:0.75rem ;
+
+.dot {
+    width: 0.75rem;
     height: 0.75rem;
     outline: 1px solid black;
     border-radius: 50%;
     margin-left: 36px;
 }
-#dot{
-    width:0.75rem ;
+
+#dot {
+    width: 0.75rem;
     height: 0.75rem;
     outline: 1px solid black;
     border-radius: 50%;
     margin-left: 36px;
 }
-.dot:hover{
+
+.dot:hover {
     background-color: black;
-    cursor:pointer
+    cursor: pointer
 }
-hr{
-    width:68rem;
+
+hr {
+    width: 68rem;
     margin-bottom: 50px;
 }
-@media all and (max-width:1200px){
-    hr{
+
+@media all and (max-width:1200px) {
+    hr {
         margin-bottom: 40px;
         width: 90vw;
     }
 }
-@media all and (max-width:992px){
-    hr{
+
+@media all and (max-width:992px) {
+    hr {
         width: 80vw;
         margin-bottom: 2vh;
     }
 }
-@media all and (max-width:768px){
-    hr{
+
+@media all and (max-width:768px) {
+    hr {
         width: 100vw;
     }
 }
 
 
 /* section */
-section{
+section {
     /* width: 81.25%; */
     margin: 0 auto;
 }
-.title{
+
+.title {
     width: 68rem;
     display: flex;
     margin: 0 auto;
-    justify-content:space-between;
-    padding:70px 0 6px 0;
+    justify-content: space-between;
+    padding: 70px 0 6px 0;
     /* border: 2px solid red; */
 }
-@media all and (max-width:1200px)
-{
-    .title{
+
+@media all and (max-width:1200px) {
+    .title {
         width: 90vw;
         padding: 60px 0 5px 0;
     }
 }
-@media all and (max-width:992px){
-    .title{
-        padding:50px 0 4px 0;
+
+@media all and (max-width:992px) {
+    .title {
+        padding: 50px 0 4px 0;
         width: 80%;
     }
 }
-@media all and (max-width:576px){
-    .title{
+
+@media all and (max-width:576px) {
+    .title {
         padding: 14px 0 4px 0;
         width: 90%;
     }
 }
-@media all and (max-width:768px){
-    .title>h2{
+
+@media all and (max-width:768px) {
+    .title>h2 {
         padding-top: 15px;
     }
 }
 
-span>a{
+span>a {
     text-decoration: none;
     color: black;
 }
-a>h2::after{
-    content:url(/images/homepage/19-book-outline.gif) ;
+
+a>h2::after {
+    content: url(../images/homepage/19-book-outline.gif);
     font-size: 24px;
 }
 
-li>button{
+li>button {
     background-color: white;
     border: none;
     cursor: pointer;
     /* border: 2px solid gold; */
 }
-@media all and (max-width:992px){
-    .gs button h2{
-        padding:10px
+
+@media all and (max-width:992px) {
+    .gs button h2 {
+        padding: 10px
     }
 }
-@media all and (max-width:768px){
-    .gs button h2{
+
+@media all and (max-width:768px) {
+    .gs button h2 {
         font-size: 2.3rem;
         padding: 1rem;
     }
 }
-@media all and (max-width:576px){
-    .gs button h2{
+
+@media all and (max-width:576px) {
+    .gs button h2 {
         font-size: 1.5rem;
         padding: 6px;
     }
 }
-button>h2::after{
-    content:url(/images/homepage/19-book-outline.gif);
+
+button>h2::after {
+    content: url(../images/homepage/19-book-outline.gif);
     width: 100%;
-      height:100%;
+    height: 100%;
 }
-@media all and (max-width:992px){
-    button>h2::after{
-      width: 1.25rem;
-      height: 1.25rem;
+
+@media all and (max-width:992px) {
+    button>h2::after {
+        width: 1.25rem;
+        height: 1.25rem;
     }
 }
-p{
+
+p {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.6;
@@ -238,94 +268,108 @@ p{
     margin: 0 auto;
     width: 200px;
 }
-@media all and (max-width:992px){
-    p{
+
+@media all and (max-width:992px) {
+    p {
         font-size: .7rem;
     }
 }
-@media all and (max-width:768px){
-    p{
+
+@media all and (max-width:768px) {
+    p {
         font-size: 1.2rem;
-       width: 250px;
+        width: 250px;
     }
 }
-@media all and (max-width:576px){
-    p{
+
+@media all and (max-width:576px) {
+    p {
         font-size: 12px;
-       width: 50vw;
+        width: 50vw;
     }
 }
 
 
 /* 標題 */
-.gs>ul{
+.gs>ul {
     display: flex;
     text-align: center;
     min-width: 61%;
 }
-.gs{
+
+.gs {
     padding-top: 55px;
     width: 77%;
     margin: 0 auto;
     /* border: 2px solid black; */
 }
+
 @media all and (max-width:1200px) {
-    .gs{
+    .gs {
         padding-top: 30px;
     }
 }
-@media all and (max-width:992px){
-    .gs{
-        padding-top:5vh;
-        width:80%;
+
+@media all and (max-width:992px) {
+    .gs {
+        padding-top: 5vh;
+        width: 80%;
     }
 }
-@media all and (max-width:768px){
 
-    .gs ul{
-        display:grid;
+@media all and (max-width:768px) {
+
+    .gs ul {
+        display: grid;
         grid-template-columns: 1fr;
-        
+
     }
-    .gs ul li{
+
+    .gs ul li {
         width: 100%;
     }
- 
+
 }
-@media all and (max-width:576px){
-    .gs{
-        padding-top:0;
-        width:70%;
+
+@media all and (max-width:576px) {
+    .gs {
+        padding-top: 0;
+        width: 70%;
     }
 }
-.gs li{
+
+.gs li {
     /* border: solid 1px blueviolet; */
     flex-grow: 1;
     width: 20%;
 }
-.gs h2{
+
+.gs h2 {
     padding: 25px;
     font-weight: bolder;
 }
 
 /* FEATURED GUITARS */
-.warp{
-    max-width:68rem;
+.warp {
+    max-width: 68rem;
     margin: 0 auto;
     position: relative;
 }
-@media all and (max-width:1200px){
-    .warp{
+
+@media all and (max-width:1200px) {
+    .warp {
         width: 90%;
         line-height: 2;
     }
 }
-@media all and (max-width:992px){
-    .warp{
-        width:80%;
+
+@media all and (max-width:992px) {
+    .warp {
+        width: 80%;
     }
 }
-.sg{
+
+.sg {
     /* background-image:url(./images/homepage/reverend_flatroc_rock-orange_guitar_front.png); */
     background-repeat: no-repeat;
     background-position: 50%;
@@ -339,34 +383,39 @@ p{
     top: 0;
     transform: rotate(-45deg);
 }
-@media all and (max-width:768px){
-    .sg{
+
+@media all and (max-width:768px) {
+    .sg {
         transform: rotate(-90deg);
         background-size: 110%;
-        left:35%;
+        left: 35%;
     }
 }
-@media all and (max-width:576px){
-    .sg{
-        left:0;
+
+@media all and (max-width:576px) {
+    .sg {
+        left: 0;
     }
 }
-ul li:hover h1{
+
+ul li:hover h1 {
     color: black;
 }
 
 
 /* nav */
-.picture{
+.picture {
     padding-top: 139px;
     overflow: hidden;
 }
-@media all and (max-width:992px){
-    .picture{
-        padding-top:20px
+
+@media all and (max-width:992px) {
+    .picture {
+        padding-top: 20px
     }
 }
-.car{
+
+.car {
     margin: 0 auto;
     display: flex;
     width: 60rem;
@@ -375,34 +424,40 @@ ul li:hover h1{
     box-shadow: 0 1em 2.6em -1em rgb(0 0 0 / 25%);
     /* border: 2px solid black; */
 }
-@media all and (max-width:1200px){
-    .car{
+
+@media all and (max-width:1200px) {
+    .car {
         width: 80vw;
         height: 40vw;
     }
 }
-.cardimg{
+
+.cardimg {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
-@media all and (max-width:992px){
+
+@media all and (max-width:992px) {
     .cardimg {
         background-position: 50% 50%;
         background-size: 100%;
     }
 }
-.img1{
-    background-image: url(/images/homepage/Mask\ Group.png);
-}
-.img2{
-    background-image: url(/images/homepage/Mask\ Group\ \(1\).png);
-}
-.img3{
-    background-image: url(/images/homepage/Mask\ Group\ \(2\).png);
+
+.img1 {
+    background-image: url(../images/homepage/Mask\ Group.png);
 }
 
-.content{
+.img2 {
+    background-image: url(../images/homepage/Mask\ Group\ \(1\).png);
+}
+
+.img3 {
+    background-image: url(../images/homepage/Mask\ Group\ \(2\).png);
+}
+
+.content {
     font-size: 1.125rem;
     font-family: 'Signika Negative', sans-serif;
     align-items: flex-start;
@@ -417,32 +472,37 @@ ul li:hover h1{
     width: 100%;
     z-index: 1;
 }
-@media all and (max-width:768px){
-    .content{
+
+@media all and (max-width:768px) {
+    .content {
         padding: 3.4rem 2rem;
     }
 }
-.content h3{
+
+.content h3 {
     font-family: 'Purple Purse';
     font-size: 34px;
     line-height: 2.6rem;
     padding: 12px 0 38px 0;
 }
-@media all and (max-width:768px){
-    .content h3{
+
+@media all and (max-width:768px) {
+    .content h3 {
         font-size: 30px;
         line-height: 2rem;
         padding: 5px 0 20px 0;
     }
 }
-@media all and (max-width:576px){
-    .content h3{
+
+@media all and (max-width:576px) {
+    .content h3 {
         font-size: 20px;
         padding: 2px;
         line-height: 1.2rem;
     }
 }
-.content a{
+
+.content a {
     width: 9.625rem;
     height: 2.3125rem;
     display: block;
@@ -451,85 +511,100 @@ ul li:hover h1{
     line-height: 37px;
     margin-left: 20%;
 }
-@media all and (max-width:768px){
-    .content a{
+
+@media all and (max-width:768px) {
+    .content a {
         width: 8rem;
         margin-bottom: 15%;
-        line-height: 2rem;;
+        line-height: 2rem;
+        ;
     }
 }
-@media all and (max-width:576px){
-    .content a{
+
+@media all and (max-width:576px) {
+    .content a {
         padding: 2%;
         margin-top: 5%;
         color: black;
         width: 60%;
         margin-bottom: 5%;
-        line-height: 1rem;;
+        line-height: 1rem;
+        ;
         font-size: 0.8rem;
     }
 }
-.changswitch{
-display: flex;
-justify-content: center;
-padding:1.5rem 0 3rem 0;
+
+.changswitch {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0 3rem 0;
 }
-.carousel{
+
+.carousel {
     position: relative;
     padding-top: 2rem;
 }
-.carousel__item{
+
+.carousel__item {
     display: none;
 }
-.carousel__item--selected{
+
+.carousel__item--selected {
     display: block;
 }
 
-#guitar{
+#guitar {
     display: block;
     margin: 0 auto;
 }
-button{
-    margin: 0 auto;
-    display: block;
-}
-    
-.one{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(191,113,7);
-    border-radius: 50%;
-}
-.two{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(199,6,15);
-    border-radius: 50%;
-}
-.three{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(91,123,7);
-    border-radius: 50%;
-}
-.four{
-    width: 30px;
-    height: 30px;
-    background-color: rgb(14,17,30);
-    border-radius: 50%;
-}
-.five{
 
-    background-color: rgb(39,45,53);
+button {
+    margin: 0 auto;
+    display: block;
 }
-.pic2{
+
+.one {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(191, 113, 7);
+    border-radius: 50%;
+}
+
+.two {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(199, 6, 15);
+    border-radius: 50%;
+}
+
+.three {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(91, 123, 7);
+    border-radius: 50%;
+}
+
+.four {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(14, 17, 30);
+    border-radius: 50%;
+}
+
+.five {
+
+    background-color: rgb(39, 45, 53);
+}
+
+.pic2 {
     margin: 0 auto;
     display: flex;
     width: 650px;
     margin-top: 24px;
     margin-bottom: 45px;
 }
-div.pic2>button{
+
+div.pic2>button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -538,45 +613,51 @@ div.pic2>button{
 
 /* person */
 /* 人物圖 */
-.person{
+.person {
     width: 300px;
     height: 300px;
     margin: 0 auto;
     position: relative;
 }
-@media all and (max-width:1200px){
-    .person{
+
+@media all and (max-width:1200px) {
+    .person {
         width: 23vw;
         height: 23vw;
     }
 }
-@media all and (max-width:992px){
-    .person{
+
+@media all and (max-width:992px) {
+    .person {
         padding: 0 1vw;
     }
 }
-@media all and (max-width:768px){
-    .person{
+
+@media all and (max-width:768px) {
+    .person {
         width: 40vw;
         height: 40vw;
     }
 }
 
-.pic1{
+.pic1 {
     padding-bottom: 2rem;
 }
-.pic1 img{
+
+.pic1 img {
     /* border-radius: 50%;
     width: 300px;
     height: 300px; */
 }
-.person img{
+
+.person img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     transition: all .2s ease-in-out;
 }
-.in{
+
+.in {
     width: 100%;
     height: 100%;
     opacity: .8;
@@ -584,21 +665,24 @@ div.pic2>button{
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     border-radius: 50%;
     display: none;
     transition: all .2s ease-in-out;
 }
-.person:hover div.in{
+
+.person:hover div.in {
     display: block;
-    
+
 }
-.person:hover div.two{
+
+.person:hover div.two {
     display: block;
 }
-.person:hover img{
-    filter:blur(3px);
+
+.person:hover img {
+    filter: blur(3px);
 }
 
 
@@ -607,9 +691,9 @@ div.pic2>button{
 .swiper {
     width: 100%;
     height: 100%;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -627,57 +711,64 @@ div.pic2>button{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  span.swiper-pagination-bullet{
-      height: 1rem;
-      width: 1rem;
-      background-color: rgb(255, 255, 255);
-  }
-  @media all and (max-width:576px){
-   .swiper-button-prev, .swiper-rtl .swiper-button-next{
+span.swiper-pagination-bullet {
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+@media all and (max-width:576px) {
+
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
         display: none;
     }
 
-  }
-  .swiper-container.js-bottom-swiper
-{
+}
+
+.swiper-container.js-bottom-swiper {
     max-width: 1200px;
     /* overflow: hidden; */
     position: relative;
 }
-@media all and (max-width:768px){
-    .swiper-container.js-bottom-swiper{
+
+@media all and (max-width:768px) {
+    .swiper-container.js-bottom-swiper {
         padding-top: 30px;
     }
 }
-@media all and (max-width:1200px){
-.swiper-slide-active{
-    margin-right: 0;
-}
-}
-@media all and (max-width:922px){
-.swiper-button-next, .swiper-rtl .swiper-button-prev  {
- right: 40px;   
-}
+
+@media all and (max-width:1200px) {
+    .swiper-slide-active {
+        margin-right: 0;
+    }
 }
 
-@media all and (max-width:576px){
-    span.new{
+@media all and (max-width:922px) {
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 40px;
+    }
+}
+
+@media all and (max-width:576px) {
+    span.new {
         font-size: 12px;
     }
 }
 
 
 .swiper-button-next.swiper-button-next::after,
-.swiper-button-prev.swiper-button-prev::after
-{
+.swiper-button-prev.swiper-button-prev::after {
     font-size: 30px;
 }
