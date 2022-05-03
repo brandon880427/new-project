@@ -1,0 +1,106 @@
+.main1{
+    background-image: url(../images/Web-Header-ModernTerra\ 1\ 1.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin: 0 auto;
+    background-position: center;
+}
+/* main end */
+
+/* nav */
+nav ul{
+    display: flex;
+    /* width: 820px; */
+    margin: 113px 0 34px 0;
+}
+nav li{
+    flex-grow: 1;
+}
+nav li:first-child{
+    margin:0 130px 0 266px;
+    text-align: center;  
+}
+nav li:last-child{
+    margin-right: 310px;
+}
+nav li>a{
+    border-right: 1px solid black;
+    text-align: center;  
+    display: block;
+    line-height: 20px;
+    color: #000;
+}
+li a{
+    text-decoration: none;
+    color: rgb(93, 53, 53);
+}
+hr{
+    width:100%;
+}
+h3{
+    font-size: 18px;
+}
+/* hover */
+.main2>li a:hover  {
+    /* text-shadow:0 15px 10px rgba(224, 255, 47, 0.9) ; */
+    text-shadow: rgb(227, 232, 212) 1px 0 10px;
+    /* border-bottom: 5px solid yellow; */
+    box-sizing: border-box;
+    color:rgb(227, 232, 212) ;
+}
+.transition2 li:hover {
+    background-color: rgb(245, 158, 77);
+    transform: scale(1.2);
+}
+/* transition */
+.transition2 li{
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+	/*transition: width .5s ease-out;*/
+}
+
+
+/* section */
+h2{
+    font-size: 24px;
+}
+.pic2{
+    display: flex;
+    text-align: center;
+    padding: 60px 0 60px 0;
+}
+.pic2 li{
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

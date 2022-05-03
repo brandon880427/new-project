@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+}
+
+h4 {
+  font-size: 18px;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.main1 {
+  display: flex;
+  margin: 0 auto;
+  width: 1240px;
+  justify-content: center;
+}
+
+.p1 {
+  text-align: center;
+  /* border: 2px solid black; */
+  /* height: 359px; */
+  width: 620px;
+  background-color: rgb(0, 0, 0);
+}
+
+.p1 li {
+  line-height: 60px;
+}
+
+.p2 {
+  margin: 0 auto;
+}
+
+.p2 h2 {
+  padding: 10px 0;
+}
+
+.p2 li {
+  line-height: 40px;
+}
+
+/* .section{
+  width: 1240px;
+  height: 354px;
+  margin: 0 auto;
+  display: flex;
+} */
+/* .section li{
+  background-size: cover;
+  background-position:center center;
+  transition: .5s;
+} */
+/* .item1{
+  background-image: url(../images/computer.png);
+  flex-grow: 3;
+}
+.item2{
+  background-image: url(../images/maxresdefault.jpg);
+  flex-grow: 1;
+}
+.item3{
+  background-image: url(../images/man.png);
+  flex-grow: 2;
+} */
+/* .section li:hover{
+  flex-grow: 10;
+} */
+.mainpic {
+  background-image: url(../images/bg-about\ 1.png);
+  width: 1240px;
+  height: 363px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  line-height: 363px;
+}
+
+h1 {
+  color: white;
+  font-size: 44px;
+  text-align: center;
+}

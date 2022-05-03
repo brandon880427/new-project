@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Open+Sans:wght@300&display=swap');
+
+/* *{
+    box-sizing: border-box;
+} */
+body {
+    /* min-width:1440px ; */
+}
+
+li p {
+    display: block;
+    padding: 0 13px;
+    letter-spacing: .5px;
+}
+
+@media all and (max-width:992px) {
+    li p {
+        padding: 13px;
+        font-size: .9rem;
+    }
+}
+
+@media all and (max-width:840px) {
+    li p {
+        padding: 10px;
+        font-size: .8rem;
+    }
+}
+
+@media all and (max-width:738px) {
+    li p {
+        padding: 5px;
+        line-height: 1.2;
+        font-size: .6rem;
+    }
+}
+
+@media all and (max-width:576px) {
+    li p {
+        padding: 2px;
+        line-height: 1.1;
+        font-size: .3rem;
+    }
+}
+
+.customize {
+    background-repeat: no-repeat;
+    background-image: url(../images/Group\ 13.jpg);
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: 100%;
+    /* background-position: center center; */
+    /* margin: 0 auto; */
+    position: relative;
+}
+
+/* @media all and (max-width:1460px){
+    .customize{
+        background-size: 100vw;
+    }
+} */
+/* border */
+.border {
+    height: 0;
+    /* background:transparent; */
+    border-left: 1px solid white;
+    position: absolute;
+    top: 0;
+    left: 500px;
+    animation: border1 3s 1 ease-in-out forwards;
+}
+
+@keyframes border1 {
+    from {
+        height: 0;
+        /* left:0; */
+    }
+
+    to {
+        /* left:500px; */
+        height: 9vw;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .border {
+        left: 10vw;
+    }
+}
+
+@media all and (max-width:576px) {
+    .border {
+        top: 6px
+    }
+}
+
+.border2 {
+    width: 200px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 30%;
+    right: 46%;
+    animation: border2 3s ease-in-out 1 forwards;
+    animation-direction: unset;
+}
+
+@media all and (max-width:1200px) {
+    .border2 {
+        top: 36vw;
+    }
+}
+
+@keyframes border2 {
+    from {
+        width: 0;
+
+    }
+
+    to {
+
+        width: 30vw;
+    }
+}
+
+.border3 {
+    bottom: 38%;
+    ;
+    left: 75%;
+    height: 150px;
+    border-left: 1px solid white;
+    animation: border3 3s ease-in-out 1 forwards;
+    position: absolute;
+}
+
+@keyframes border3 {
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 12vw;
+    }
+}
+
+.border4 {
+    width: 117px;
+    border-top: 1px solid white;
+    position: absolute;
+    bottom: 9%;
+    left: 67%;
+    animation: border4 3s ease-in-out 1 forwards;
+}
+
+@media all and (max-width:1400px) {
+    .border4 {
+        top: 70vw
+    }
+}
+
+@keyframes border4 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 11vw;
+    }
+}
+
+.images {
+    width: 287px;
+    height: 167px;
+    background-color: rgb(196, 196, 196);
+    text-align: center;
+    line-height: 30px;
+}
+
+@media all and (max-width:992px) {
+    .images {
+        width: 30vw;
+        height: 17vw;
+    }
+}
+
+@media all and (max-width:840px) {
+    .images {
+        width: 29vw;
+        height: 15vw;
+    }
+}
+
+@media all and (max-width:576px) {
+    .images {
+        /* width: 30%;
+        height: 18%;
+        min-width: 25%; */
+    }
+}
+
+.images img {
+    padding: 8px;
+}
+
+@media all and (max-width:992px) {
+    .images img {
+        width: 17vw;
+
+    }
+}
+
+@media all and (max-width:840px) {
+    .images img {
+        width: 15vw;
+    }
+}
+
+.images ul {
+    display: flex;
+    align-items: center;
+}
+
+div>h2 {
+    color: white;
+    font-size: 2em;
+}
+
+@media all and (max-width:992px) {
+    div>h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media all and (max-width:576px) {
+    div>h2 {
+        font-size: 1rem;
+    }
+}
+
+.head2 {
+    /* outline: 2px solid pink; */
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    left: 348px;
+    opacity: 0;
+    animation: guitarhead 3s ease-in-out 3s 1 forwards;
+}
+
+@keyframes guitarhead {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .head2 {
+        left: 5vw;
+    }
+}
+
+@media all and (max-width:992px) {
+    .head2 {
+        left: 2vw;
+        top: 12vw;
+    }
+}
+
+.guitarneck {
+    top: 30%;
+    left: 18.3%;
+    /* display: none; */
+
+}
+
+@media all and (max-width:1400px) {
+    .guitarneck {
+        left: 16vw;
+    }
+
+    div.guitarbody {
+        top: 33vw;
+    }
+
+    div.pickup {
+        top: 73vw;
+        left: 64vw;
+    }
+}
+
+@media all and (max-width:1200px) {
+    .guitarneck {
+        left: 13vw;
+        top: 38vw;
+    }
+
+    div.guitarbody {
+        top: 29vw;
+    }
+
+}
+
+.guitarbody {
+    top: 42%;
+    ;
+    left: 67%;
+}
+
+.pickup {
+    left: 76%;
+    top: 85%;
+}

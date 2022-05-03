@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題</title>
+    <link rel="stylesheet" href="./CSS/hf.css">
+    <link rel="stylesheet" href="./CSS/note.css">
+    <link rel="stylesheet" href="./CSS/product.css">
+    <link rel="shortcut icon" href="./images/logo1.svg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./index.js">
+    <script src="https://kit.fontawesome.com/e09a73ce74.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+</head>
+
+<body>
+    <!-- 主頁 -->
+    <header>
+        <nav class="navbar">
+            <a href="../index.html" class="alogo"><img src="../images/logo f.svg" alt=""></a>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="head">
+                <li><a href="../newaboutus.html">About Us</a></li>
+                <li><a href="../shop.html">Shop</a></li>
+                <li><a href="../customize.html">Coustomize</a></li>
+                <li><a href="./newstudio.html">Hire</a></li>
+                <li><a href="../location.html">Map</a></li>
+                <li><a id="mymodalboxBtn"><i class="fas fa-user"></i></a></li>
+                <li><a href=""><i class="fas fa-cart-arrow-down"></i></a></li>
+                <li><a href=""><i class="fas fa-globe"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- modal box -->
+    <div id="modalout">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="logo" src="../piclogo.svg" alt="">
+            <div class="sign">
+                <input class="account" type="text" placeholder="account" required>
+                <input class="password" type="text" placeholder="password" required>
+                <input class="submit" type="submit" value="submit" style="cursor: pointer;">
+            </div>
+            <hr style="width: 100%;margin-bottom:0">
+            <div class="icon">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-google-drive"></i></a></li>
+                    <li> <a href=""><i class="fa-brands fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+            <a class="forget tran1" href="">
+                <h1>forget password?</h1>
+            </a>
+            <a class="forget tran1" href="">
+                <h1>sign up</h1>
+            </a>
+        </div>
+    </div>
+    <!-- product pic -->
+    <main>
+        <span>
+            <ul class="model">
+                <li>
+                    <h3>BOLT-ON SERIES</h3>
+                    <h1>Starcaster</h1>
+                </li>
+                <li >
+                    <h3 id="colortype">MIDNIGHT BLACK/PAU FERRO</h3>
+                    <div class="button">
+                        <button class="color" id="btn1" style="background-color: #C59C60;"></button>
+                        <button class="color" id="btn2" style="background-color: #00ABCE;"></button>
+                        <button class="color" id="btn3" style="background-color: #DA4135;"></button>
+                        <button class="color" id="btn4" style="background-color: #650000;"></button>
+                        
+                    </div>
+                </li>
+            </ul>
+        </span>
+        <div class="mainpic"></div>
+    </main>
+
+    <article>
+        <aside class="grid">
+            <div>
+                <div class="detail">
+                    <a href="">
+                        <ol class="card">
+                            <li class="img">
+                                <div class="insideimg"
+                                    style="background-image: url(./product/fender-midnight-stratocaster.png);">
+                                </div>
+                            </li>
+                            <li class="orange">
+                                <ol class="opacity">
+                                    <li class="product" style="background-color:#C59C60;"></li>
+                                    <li class="product" style="background-color: #00ABCE;"></li>
+                                    <li class="product" style="background-color: #DA4135;"></li>
+                                    <li class="product" style="background-color: #650000;"></li>
+                                </ol>
+                            </li>
+                            <li class="text">
+                                <h4>BOLT-ON SERIES</h4>
+                                <h2>Starcaster</h2>
+                            </li>
+                        </ol>
+                    </a>
+                    <a href="" class="add">
+                        <h4>+Add</h4>
+                    </a>
+                </div>
+            </div>
+        
+            
+        <section class="DES">
+            <h2>DESCRIPTION</h2>
+            <hr>
+            <p>Two Retroblast pickups loaded into a maple-necked bolt-on Korina body, and you’ve got
+                yourself a distinctive clean yet warm twang that separates you from everyone else in the
+                band.Get your band hoppin'with the Flatroc.</p>
+            <iframe src="https://www.youtube.com/embed/B_7rAzzNKLw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <section class="DES SPECS">
+                <h2>SPECS</h2>
+                <hr>
+                <div class="all">
+                    <span class="word">
+                        <h3>BODY</h3>
+                    </span>
+                    <span>
+                        <h3>Korina Solidbody</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>PICKUPS</h3>
+                    </span>
+                    <span>
+                        <h3>Retroblast Bridge, Retroblast Neck</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>BRIDGE</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Bigsby B-50 with Roller Bridge</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>NECK</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Roasted Maple</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>SCALE</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            25 1/2"</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            NECK PROFILE</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Medium Oval</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            FINGERBOARD</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Roasted Maple or Rosewood 12" Radius</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            TRUSS ROD</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Dual Action - Headstock Access</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            TUNERS</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Goldton-Pin-Lock</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            TUNERS</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Gotoh-Pin-Lock</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            NUT</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            43mm Width - Boneite</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+
+                            CONTROLS</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Volume, Tone, Bass Contour, 3-Way</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            STRINGS</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            10-46</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            CASE</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            Two-Toned Teardrop (Available Separately)</h3>
+                    </span>
+                </div>
+                <div class="all">
+                    <span class="word">
+                        <h3>
+                            LIST PRICE</h3>
+                    </span>
+                    <span>
+                        <h3>
+                            $1439</h3>
+                    </span>
+                </div>
+            </section>
+   
+            <section class="DES SPECS">
+                <h2>GALLERY</h2>
+                <hr>
+                <!-- scroll -->
+                <!-- <div class="scroll">
+                    <div class="container"
+                        style="background-image:url(./product/reverend_gil_parris_GPS_midnight_black_signature_bolt_on_guitar2.jpg.webp);">
+                    </div>
+                    <div class="line">
+                        <button class="btn left"><img src="./product/left-arrow.png" alt=""></button>
+                        <ul class="slider">
+                            <li
+                                style="background-image: url(./product/reverend_gil_parris_GPS_midnight_black_signature_bolt_on_guitar4.jpg);">
+                            </li>
+                            <li
+                                style="background-image: url(./product/reverend_gil_parris_GPS_midnight_black_signature_bolt_on_guitar4.jpg);">
+                            </li>
+                            <li
+                                style="background-image: url(./product/reverend_gil_parris_GPS_midnight_black_signature_bolt_on_guitar5.jpg.webp);">
+                            </li>
+                            <li
+                                style="background-image: url(./product/reverend_gil_parris_GPS_midnight_black_signature_bolt_on_guitar4\ \(1\).jpg);">
+                            </li>
+                            <li
+                                style="background-image: url(./product/reverend_gil_parris_GPS_midnight_black_signature_bolt_on_guitar5.jpg.webp);">
+                            </li>
+                        </ul>
+                        <button class="btn right"><img src="./product/right-chevron.png" alt=""></button>
+                    </div>
+                </div> -->
+                
+                <div
+                style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                class="swiper mySwiper2 swiper-container">
+                <!-- <div class="swiper-button-next" style="top: 15%; color: aqua;"></div>
+                <div class="swiper-button-prev" style="top: 15%; color: aqua;"></div> -->
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F1.jpg.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F2.jpg.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F3.jpg.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F1.jpg.webp" />
+                  </div>
+                  <!-- <div class="swiper-slide">
+                    <img src="./images/nature-5.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/nature-6.jpg" />
+                  </div>
+                </div> -->
+              
+              </div>
+              <div class="postion">
+                <div class="swiper-button-next" style="top: 50%; color: rgb(0, 0, 0);"></div>
+                <div class="swiper-button-prev" style="top: 50%; color: rgb(0, 0, 0);"></div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F1.jpg.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F2.jpg.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F3.jpg.webp" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./product/reverend_gil-parris-signature-GPS_guitar_F1.jpg.webp" />
+                  </div>
+                  <!-- <div class="swiper-slide">
+                    <img src="./images/nature-5.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/nature-6.jpg" />
+                  </div> -->
+                </div>
+              </div>
+            </div>
+                <!-- features -->
+                <section class="DES SPECS">
+                    <h2>FEATURES</h2>
+                    <hr>
+                    <div class="features">
+                        <div class="out">
+                            <div class="in" style="background-image: url(./product/in.jpeg);"></div>
+                            <span>
+                                <h3>CUSTOM PICKUPS</h3>
+                                <p>We design our own custom pickups,to
+                                    achieve the best tonal match with our
+                                    instruments. Reverend pickups are also
+                                    specifically designed for each position, for
+                                    balanced volume and tone when switching.
+                                </p>
+                            </span>
+                        </div>
+                        <div class="out">
+                            <div class="in" style="background-image: url(./product/reverend-roasted-maple-neck.jpeg);">
+                            </div>
+                            <span>
+                                <h3>ROASTED MAPLE NECK</h3>
+                                <p>Roasted Maple is heat treated at over
+                                    300° F to remove sugars, moisture, and
+                                    impurities. This maple is lighter,more stable
+                                    and has a beautiful caramel color.The result
+                                    is an exceptional the neck that will require
+                                    less seasonal adjustment, and boasts a rich
+                                    vintage look!
+                                </p>
+                            </span>
+                        </div>
+                        <div class="out">
+                            <div class="in" style="background-image: url(./product/Mask\ Group\ \(5\).png);"></div>
+                            <span>
+                                <h3>KORINA BODY</h3>
+                                <p>Korina is a medium-light weight wood,highly
+                                    prized for consistency and tonal qualities.
+                                    Often found in boutique and vintage
+                                    instruments, all Reverends feature Korina
+                                    bodies. A highly resonant wood, Korina is a
+                                    key factor to producing our lively,responsive
+                                    instruments that are rich in harmonics.
+                                </p>
+                            </span>
+                        </div>
+                        <div class="out">
+                            <div class="in"
+                                style="background-image: url(./product/reverend-dual-action-truss-rod.jpeg);"></div>
+                            <span>
+                                <h3>DUAL-ACTION TRUSS ROD</h3>
+                                <p>Our dual action rod adjusts in both directions, allowing back bow or forward bow.
+                                    This assures correct adjustment range is possible regardless of string tension,
+                                    extreme climate conditions, or the effects of long term aging. It's also located at
+                                    the headstock for easy access.
+                                </p>
+                            </span>
+                        </div>
+
+
+                    </div>
+                </aside>
+                </section>
+
+
+
+
+
+
+            
+    </article>
+
+
+
+    <article class="art"></article>
+
+
+
+    <footer>
+        <div class="foot">
+            <div class="t1">
+                <a href="">
+                    <h4>About</h4>
+                </a>
+                <ul>
+                    <li><a href="">
+                            <h5>Our Story</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Core Values</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>introducio</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>contact us</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t2">
+                <a href="">
+                    <h4>Support</h4>
+                </a>
+                <ul>
+                    <li><a href="">
+                            <h5>Contact us</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Brand</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Coustom</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Warranty</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t3">
+                <a href="">
+                    <h4>Newsletter</h4>
+                </a>
+                <ul>
+                    <li><input type="text" class="email" placeholder="email address">
+                    </li>
+                    <li><a class="sub" href="">
+                            <h5>submit</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t4">
+                <a href="">
+                    <h4>Join the club</h4>
+                </a>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+        <div class="home">
+            <ul>
+                <li><a href="">
+                        <h5>Home</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Contant us</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Custom list</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>About</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Term</h5>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="under">
+            <h5>Geeky Guitars | ©2016 JS Technologies, INC.</h5>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <!-- <script src="../package/swiper-bundle.min.js"></script> -->
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            loop: true,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+      <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }</script>
+    <script src="./product.js"></script>
+    <script src="./custom.js"></script>
+</body>
+
+</html>

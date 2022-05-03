@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題</title>
+    <link rel="stylesheet" href="./CSS/hf.css">
+    <link rel="stylesheet" href="./CSS/note.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="shortcut icon" href="/images/logo/logo1.svg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+        integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+</head>
+
+<body>
+    <!-- 主頁 -->
+    <header>
+        <nav class="navbar">
+            <a href="./index.html" class="alogo"><img src="./images/logo/logo f.svg" alt=""></a>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="head">
+                <li><a href="./newaboutus.html">About Us</a></li>
+                <li><a href="./shophead.html">Shop</a></li>
+                <li><a href="./customize.html">Coustomize</a></li>
+                <li><a href="/newstudio/newstudio.html">Hire</a></li>
+                <li><a href="./location.html">Map</a></li>
+                <li><a id="mymodalboxBtn"><i class="fas fa-user"></i></a></li>
+                <li><a href=""><i class="fas fa-cart-arrow-down"></i></a></li>
+                <li><a href=""><i class="fas fa-globe"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- modal box -->
+    <div id="modalout">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="logo" src="./images/logo/logo1.svg" alt="">
+            <div class="sign">
+                <input class="account" type="text" placeholder="account" required>
+                <input class="password" type="text" placeholder="password" required>
+                <input class="submit" type="submit" value="submit" style="cursor: pointer;">
+            </div>
+            <hr style="width: 100%;margin-bottom:0">
+            <div class="icon">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-google-drive"></i></a></li>
+                    <li> <a href=""><i class="fa-brands fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+            <a class="forget tran1" href="">
+                <h1>forget password?</h1>
+            </a>
+            <a class="forget tran1" href="">
+                <h1>sign up</h1>
+            </a>
+        </div>
+    </div>
+    <!-- 大圖區 -->
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="main" style="background-image: url(./images/homepage/thumb-1920-58905.jpg);">
+                        <span class="bigtitle">
+                            <h1>Heaven on Earth <br>for Guitar Geeks</h1>
+                        </span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main" style="background-image: url(./images/homepage/PATENT-2.jpg.webp);"><span
+                            class="bigtitle two">
+                            <h1 style="color: white;">Six Strings and
+                                <br> an Attitue
+                            </h1>
+                        </span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main" style="background-image: url(./images/homepage/REEVES_LIGHT.jpg.jpg);">
+                        <span class="bigtitle three">
+                            <h1>Explore The <br> Reeves Models </h1>
+                        </span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main" style="background-image: url(./images/homepage/top_AAD50.jpg);"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="main" style="background-image: url(./images/homepage/parallax-IR-far.jpg);">
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </main>
+    <!-- <ol class="alldot">
+        <li><button class="dot"></button></li>
+        <li><button class="dot"></button></li>
+        <li><button class="dot"></button></li>
+    </ol> -->
+    <!-- main -->
+    <section>
+        <div class="title">
+            <h2>SIGNATURE MODELS</h2>
+            <span>
+                <a href="">
+                    <h2>view all</h2>
+                </a>
+            </span>
+        </div>
+        <hr>
+        <div class="gs">
+            <ul>
+                <li class="pic1">
+                    <div class="person"><img src="./images/homepage/image 1.png" alt="">
+                        <div class="in"
+                            style="background-image: url(./images/homepage/suhr-electric-guitars-solid-body-suhr-mateus-asato-signature-series-classic-t-ss-black-sscii-01-sig-0030-17639040221319_2000x.jpg);">
+                        </div>
+                    </div>
+                    <button class="accordion">
+                        <h2>Mateus Asato</h2>
+                    </button>
+                    <p style="transition: max-height 0.2s ease-out;">The “Mateus Asato” Signature Series <br>is
+                        handcrafted for those who appreciates <br>Neo-Soul as
+                        much as
+                        the instafamous guitarist from Brazil, Asato. It is now available in two finishes: Gloss Black
+                        and Antiqued Shell Pink. Both models are carved from silky-smooth satin finished Roasted Maple.
+                    </p>
+                </li>
+                <li class="pic1">
+                    <div class="person"><img src="./images/homepage/image 2 .png" alt="">
+                        <div class="in"
+                            style="background-image: url(./images/homepage/373138-PRS\ Silver\ Sky\ Rosewood\ Midnight\ Rose\ 1.jpg);">
+                        </div>
+                    </div>
+                    <button class="accordion">
+                        <h2>john mayer</h2>
+                    </button>
+                    <p style="transition: max-height 0.2s ease-out;">The PRS “Silver Sky” is a vintage-inspired
+                        signature guitar designed by the Grammy Award-winning
+                        musician John Mayer and Paul Reed Smith. Not only does it create the finest tunes, it is also
+                        said that the neck design has a magical touch that just makes you “feel right”. </p>
+                </li>
+                <li class="pic1">
+                    <div class="person"><img src="./images/homepage/36863-1606797575 1.png" alt="">
+                        <div class="in" style="background-image: url(./images/homepage/_sE_7117373232.jpg);"></div>
+                    </div>
+
+                    <button class="accordion">
+                        <h2>mr.kaiju</h2>
+                    </button>
+                    <p style="transition: max-height 0.2s ease-out;">The PRS “Silver Sky” is the result of a close
+                        collaboration between Grammy Award-winning
+                        musician John Mayer and Paul Reed Smith. The two spent more than two and half years making this
+                        vintage-inspired signature guitar. The neck shape was modelled after 1963/1964 vintage
+                        instruments.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <article>
+        <div class="title">
+            <h2>FEATURED GUITARS</h2>
+            <span>
+                <a href="">
+                    <h2>view all</h2>
+                </a>
+            </span>
+        </div>
+        <hr>
+        <div class="warp">
+            <ul>
+                <li class="g1" id="guitar1"><a href="">
+                        <h1>CROSSCUT</h1><span class="sg"></span>
+                    </a></li>
+                <li class="g2" id="guitar2"><a href="">
+                        <h1>TELECASTER</h1><span class="sg"></span>
+                    </a></li>
+                <li class="g3" id="guitar3"><a href="">
+                        <h1>LES PAUL</h1><span class="sg"></span>
+                    </a></li>
+                <li class="g4" id="guitar4"><a href="">
+                        <h1>STRATORCAST</h1><span class="sg"></span>
+                    </a></li>
+                <li class="g5" id="guitar5"><a href="">
+                        <h1>SIGNATURE MODELS</h1><span class="sg"></span>
+                    </a></li>
+                <li class="g6" id="guitar6"><a href="">
+                        <h1>CUSTOM SHOP</h1><span class="sg"></span>
+                    </a></li>
+            </ul>
+        </div>
+    </article>
+
+    <!-- 更換圖片區 -->
+    <!-- <div class="change"></div> -->
+    <nav class="picture">
+        <div class="title">
+            <h2>NEWS & UPDATES</h2>
+            <span>
+                <a href="">
+                    <h2>view all</h2>
+                </a>
+            </span>
+        </div>
+        <hr>
+
+        <div class="swiper-container js-bottom-swiper" style="margin:0 auto">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-wrapper">
+                <div class="carousel__item swiper-slide carousel__item--selected">
+                    <ol class="car">
+                        <li class="content">
+                            <span class="new">News</span>
+                            <h3>Signature Electrics
+                                <br> By Fender
+                            </h3>
+                            <a href="">read the post</a>
+                        </li>
+                        <li class="cardimg img1"></li>
+                    </ol>
+                </div>
+                <div class="carousel__item swiper-slide">
+                    <ol class="car">
+                        <li class="content">
+                            <span class="new">News</span>
+                            <h3>Acoustasonic Player <br>
+                                Telecaster
+                            </h3>
+                            <a href="">read the post</a>
+                        </li>
+                        <li class="cardimg img2"></li>
+                    </ol>
+                </div>
+                <div class="carousel__item swiper-slide">
+                    <ol class="car">
+                        <li class="content">
+                            <span class="new">News</span>
+                            <h3>Kemper Welcome <br>
+                                to the new world
+                            </h3>
+                            <a href="">read the post</a>
+                        </li>
+                        <li class="cardimg img3"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <ol class="changswitch">
+        <!-- <li><button id="dot"></button></li>
+        <li><button id="dot"></button></li>
+        <li><button id="dot"></button></li> -->
+    </ol>
+    <footer>
+        <div class="foot">
+            <div class="t1">
+                <a class="t1title">
+                    <h4>About</h4>
+                </a>
+                <ul class="open1">
+                    <li><a href="">
+                            <h5>Our Story</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Core Values</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>introducio</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>contact us</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t2">
+                <a class="t2title">
+                    <h4>Support</h4>
+                </a>
+                <ul class="open2">
+                    <li><a href="">
+                            <h5>Contact us</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Brand</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Coustom</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Warranty</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t3">
+                <a href="">
+                    <h4>Newsletter</h4>
+                </a>
+                <ul>
+                    <li><input type="text" class="email" placeholder="email address">
+                    </li>
+                    <li><a class="sub" href="">
+                            <h5>submit</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t4">
+                <a href="">
+                    <h4>Join the club</h4>
+                </a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="home">
+            <ul>
+                <li><a href="">
+                        <h5>Home</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Contant us</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Custom list</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>About</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Term</h5>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="under">
+            <h5>Geeky Guitars | ©2016 JS Technologies, INC.</h5>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <!-- <script src="../package/swiper-bundle.min.js"></script> -->
+
+    <!-- Initialize Swiper -->
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        var swiper = new Swiper(".js-bottom-swiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            // autoplay: {
+            //     delay: 4000,
+            //     disableOnInteraction: false,
+            // },
+            // pagination: {
+            //     el: "..swiper-pagination",
+            //     clickable: true,
+            // },
+            // navigation: {
+            //     nextEl: ".swiper-button-next",
+            //     prevEl: ".swiper-button-prev",
+            // },
+        });
+    </script>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+h1 {
+    font-size: 2rem;
+    /* font-family: 'Marcellus SC', serif; */
+    /* font-weight:bolder; */
+    letter-spacing: 3.5px;
+}
+
+@media all and (max-width:1200px) {
+    h1 {
+        font-size: 2.5rem;
+        padding: auto;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media all and (max-width:768px) {
+    h1 {
+        font-size: 1.8rem;
+        padding: 0 1rem;
+    }
+}
+
+@media all and (max-width:576px) {
+    h1 {
+        font-size: 1.4rem;
+        padding: 0 5px;
+    }
+}
+
+@media all and (max-width:400px) {
+    h1 {
+        font-size: 1.1rem;
+        padding: 0 5px;
+    }
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+
+.bebrick h5 {
+    font-size: 1.125rem;
+    color: black;
+}
+
+@media all and (max-width:576px) {
+    .bebrick h5 {
+        font-size: .8rem;
+    }
+}
+
+.bebrick {
+    padding: 10px 30px;
+    display: inline-block;
+    letter-spacing: .6rem;
+    width: 100%;
+}
+
+@media all and (max-width:576px) {
+    .bebrick {
+        padding: 10px 0;
+        letter-spacing: .4rem;
+    }
+}
+
+.bebrick a {
+    color: black;
+}
+
+.major {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media all and (max-width:1200px) {
+    .major {
+        grid-template-columns: 1fr;
+        /* grid-gap: 1rem; */
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.mainpicone {
+    /* width: 50%; */
+
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+@media all and (max-width:1200px) {
+    .mainpicone {
+        height: 100vw;
+        background-size: 90%;
+        /* transform: rotate(90deg); */
+        background-position: 0 10%;
+    }
+}
+
+.mainpictwo {
+    /* width: 50%; */
+    height: 65vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 1%;
+}
+
+@media all and (max-width:1200px) {
+    .mainpictwo {
+        height: 100vw;
+        background-position: 0 20%;
+
+        /* transform: rotate(90deg); */
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 灰籃 */
+.product {
+    width: 290px;
+    height: 227px;
+    background-color: rgba(0, 0, 0, .1);
+    /* border: 1px solid green; */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+@media all and (max-width:1200px) {
+    .product {
+        top: 70%;
+        left: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:768px) {
+    .product {
+        height: 25%;
+    }
+}
+
+.product:hover {
+    /* background-color: rgba(0, 0, 0, .5); */
+    color: white;
+}
+
+.type {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+
+
+.click {
+    display: block;
+    width: 117px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 68%;
+    left: 30%;
+    transition: all .5s ease-in-out;
+}
+
+.click:hover {
+    background-color: white;
+    color: black;
+}
+
+@media all and (max-width:1200px) {
+    .click {
+        width: 30%;
+        height: 15%;
+        border-radius: .75rem;
+        top: 43%;
+        left: 60%;
+    }
+}
+
+@media all and (max-width:576px) {
+    .click {
+        width: 32%;
+        /* height: 15%; */
+        line-height: 20px;
+        top: 43%;
+        left: 60%;
+    }
+}
+
+@media all and (max-width:400px) {
+    .click {
+        font-size: .6rem;
+
+    }
+}
+
+@media all and (max-width:375px) {
+    .click {
+        font-size: .6rem;
+        height: 17%;
+        left: 65%;
+    }
+}
+
+.two {
+    margin-top: 38px;
+}

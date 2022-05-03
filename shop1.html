@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題</title>
+    <link rel="stylesheet" href="./css/hf.css">
+    <link rel="stylesheet" href="./css/note.css">
+    <link rel="stylesheet" href="./css/shop1.css">
+    <link rel="shortcut icon" href="./images/logo1.svg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./index.js">
+    <script src="https://kit.fontawesome.com/e09a73ce74.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+</head>
+
+<body>
+    <!-- 主頁 -->
+    <header>
+        <nav class="navbar">
+            <a href="./index.html" class="alogo"><img src="./images/logo f.svg" alt=""></a>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="head">
+                <li><a href="./newaboutus.html">About Us</a></li>
+                <li><a href="./shophead.html">Shop</a></li>
+                <li><a href="./customize.html">Coustomize</a></li>
+                <li><a href="/newstudio/newstudio.html">Hire</a></li>
+                <li><a href="./location.html">Map</a></li>
+                <li><a id="mymodalboxBtn"><i class="fas fa-user"></i></a></li>
+                <li><a href=""><i class="fas fa-cart-arrow-down"></i></a></li>
+                <li><a href=""><i class="fas fa-globe"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- modal box -->
+    <div id="modalout">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="logo" src="./piclogo.svg" alt="">
+            <div class="sign">
+                <input class="account" type="text" placeholder="account" required>
+                <input class="password" type="text" placeholder="password" required>
+                <input class="submit" type="submit" value="submit" style="cursor: pointer;">
+            </div>
+            <hr style="width: 100%;margin-bottom:0">
+            <div class="icon">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-google-drive"></i></a></li>
+                    <li> <a href=""><i class="fa-brands fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+            <a class="forget tran1" href="">
+                <h1>forget password?</h1>
+            </a>
+            <a class="forget tran1" href="">
+                <h1>sign up</h1>
+            </a>
+        </div>
+    </div>
+    <div class="mainpic">
+        <h1>ELECTRIC GUITARS</h1>
+    </div>
+    <article>
+        <ul class=bar>
+            <li>
+                <h4>Sort By</h4>
+            </li>
+            <li>
+                <a href="">
+                    <h4>modern</h4>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h4>standard</h4>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h4>classic</h4>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h4>vintage</h4>
+                </a>
+            </li>
+        </ul>
+    </article>
+    <hr>
+    <span class="coco">
+        <h5><a href="">Home</a>/Electric Guitars</h5>
+    </span>
+
+    <!-- picture  -->
+    <main class="grid">
+        <a href="./product.html">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg"
+                        style="background-image: url(./product/reverend_flatroc_rock-orange_guitar_front.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #83453C;"></li>
+                        <li class="product" style="background-color: rgb(207, 185, 56);"></li>
+                        <li class="product" style="background-color: rgb(86, 206, 206);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>FlATROC</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="./product.html">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg"
+                        style="background-image: url(./shop1/reverend_greg-koch-gristle-90_venetian_gold-signature-guitar-front.png);">
+                    </div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #D9AD39;"></li>
+                        <li class="product" style="background-color: rgb(117, 197, 98);"></li>
+                        <li class="product" style="background-color: rgb(146, 76, 179);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>GREG KOCH GRISTYLE 90</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="./product.html">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg"
+                        style="background-image: url(./shop1/reverend_ron-asheton-signature-guitar_front.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #DC6224;"></li>
+                        <li class="product" style="background-color: rgb(81, 85, 85);"></li>
+                        <li class="product" style="background-color: rgb(0, 190, 190);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>RON ASHETON JETSTREAM 390</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="./product.html">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg"
+                        style="background-image: url(./shop1/reverend_kingbolt-ra_transparent-purple-flame-maple_guitar_front-1.png);">
+                    </div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #6B2F83;"></li>
+                        <li class="product" style="background-color: rgb(46, 190, 190);"></li>
+                        <li class="product" style="background-color: rgb(0, 160, 53);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>KINGBOLT RA</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="./product.html">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg" style="background-image: url(./shop1/star.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: aqua;"></li>
+                        <li class="product" style="background-color: aqua;"></li>
+                        <li class="product" style="background-color: aqua;"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>1654 customshop</h2>
+                </li>
+            </ol>
+        </a>
+
+        <a href="">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg" style="background-image: url(./shop1/teletwo.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: aqua;"></li>
+                        <li class="product" style="background-color: aqua;"></li>
+                        <li class="product" style="background-color: aqua;"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>1654 customshop</h2>
+                </li>
+            </ol>
+        </a>
+        <!-- 大圖 -->
+        <a href="" class="featured-card" style="background-image: url(./shop1/celebarte.jpg);">
+            <span class="featured">
+                <h1>H.E.R. x Stratocaster</h1>
+            </span>
+        </a>
+
+        <a href="">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg"
+                        style="background-image: url(../shop1/reverend_bob-balch-signature-guitar_violin_brown_front.png);">
+                    </div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #83453C;"></li>
+                        <li class="product" style="background-color: rgb(207, 185, 56);"></li>
+                        <li class="product" style="background-color: rgb(86, 206, 206);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>BOB BALCH SIGNATURE</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg" style="background-image: url(./shop1/blue.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #D9AD39;"></li>
+                        <li class="product" style="background-color: rgb(117, 197, 98);"></li>
+                        <li class="product" style="background-color: rgb(146, 76, 179);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>GREG KOCH GRISTYLE 90</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg" style="background-image: url(./shop1/pink.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #DC6224;"></li>
+                        <li class="product" style="background-color: rgb(81, 85, 85);"></li>
+                        <li class="product" style="background-color: rgb(0, 190, 190);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>RON ASHETON JETSTREAM 390</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg"
+                        style="background-image: url(./shop1/reverend_kingbolt-ra_transparent-purple-flame-maple_guitar_front-1.png);">
+                    </div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #6B2F83;"></li>
+                        <li class="product" style="background-color: rgb(46, 190, 190);"></li>
+                        <li class="product" style="background-color: rgb(0, 160, 53);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>KINGBOLT RA</h2>
+                </li>
+            </ol>
+        </a>
+        <!-- 大圖 -->
+        <a href="" class="featured-card" style="background-image: url(./shop1/guitar_3.jpg);">
+            <span class="featured">
+                <h1>FLATROC</h1>
+            </span>
+        </a>
+        <a href="">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg" style="background-image: url(./shop1/lespual.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #6B2F83;"></li>
+                        <li class="product" style="background-color: rgb(46, 190, 190);"></li>
+                        <li class="product" style="background-color: rgb(0, 160, 53);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>GIBOSN P90</h2>
+                </li>
+            </ol>
+        </a>
+        <a href="">
+            <ol class="card">
+                <li class="img">
+                    <div class="insideimg" style="background-image: url(./shop1/good.png);"></div>
+                </li>
+                <li class="color">
+                    <ol class="opacity">
+                        <li class="product" style="background-color: #6B2F83;"></li>
+                        <li class="product" style="background-color: rgb(46, 190, 190);"></li>
+                        <li class="product" style="background-color: rgb(0, 160, 53);"></li>
+                    </ol>
+                    </div>
+                </li>
+                <li class="text">
+                    <h2>KINGBOLT RA</h2>
+                </li>
+            </ol>
+        </a>
+    </main>
+    <section>
+    </section>
+
+
+
+    <footer>
+        <div class="foot">
+            <div class="t1">
+                <a class="t1title">
+                    <h4>About</h4>
+                </a>
+                <ul class="open1">
+                    <li><a href="">
+                            <h5>Our Story</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Core Values</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>introducio</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>contact us</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t2">
+                <a class="t2title">
+                    <h4>Support</h4>
+                </a>
+                <ul class="open2">
+                    <li><a href="">
+                            <h5>Contact us</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Brand</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Coustom</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Warranty</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t3">
+                <a href="">
+                    <h4>Newsletter</h4>
+                </a>
+                <ul>
+                    <li><input type="text" class="email" placeholder="email address">
+                    </li>
+                    <li><a class="sub" href="">
+                            <h5>submit</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t4">
+                <a href="">
+                    <h4>Join the club</h4>
+                </a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="home">
+            <ul>
+                <li><a href="">
+                        <h5>Home</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Contant us</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Custom list</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>About</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Term</h5>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="under">
+            <h5>Geeky Guitars | ©2016 JS Technologies, INC.</h5>
+        </div>
+    </footer>
+    <script src="./custom.js"></script>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }</script>
+</body>
+
+</html>

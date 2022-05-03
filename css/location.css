@@ -1,0 +1,91 @@
+
+h1{
+    font-size: 36px;
+    letter-spacing:3px;
+}
+@media all and (max-width:992px){
+    h1{font-size: 30px;
+    }
+}
+@media all and (max-width:576px){
+    h1{font-size: 20px;
+        
+    }
+}
+h2{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+@media all and (max-width:992px){
+    h2{font-size: 18px;
+    }
+}
+main{
+    /* border: 2px solid black; */
+    width:100%;
+    margin: 0 auto;
+}
+main h1{
+    padding: 1% 10%;;
+}
+main ul{
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    grid-gap: 3rem;
+    width: 80%;
+}
+@media all and (max-width:768px){
+    main ul{
+        grid-template-columns: 100%;
+        width: 100%;
+        grid-gap: 1rem;
+    }
+}
+img{
+    display: block;
+    width: 100%;
+}
+@media all and (max-width:768px){
+    img{
+      max-height: 50vw;
+    }
+}
+iframe{
+ height: 100%;
+ width: 100%;
+}
+@media all and (max-width:768px){
+    iframe{
+        grid-column: span 1;
+        height:50vw;
+    }
+}
+/* 底下的字 */
+nav{
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+@media all and (max-width:576px){
+    .localnav{
+       flex-direction: column;
+    }
+}
+.nav{
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+    line-height: 1.6;
+}
+@media all and (max-width:576px){
+    .nav{
+       padding: 2%;
+    }
+}
+
+
+
+

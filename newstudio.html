@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>專題</title>
+    <link rel="stylesheet" href="./css/hf.css">
+    <link rel="stylesheet" href="./css/note.css">
+    <link rel="stylesheet" href="./css/newstudio.css">
+    <link rel="shortcut icon" href="./images/logo1.svg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./js/index.js">
+    <script src="https://kit.fontawesome.com/e09a73ce74.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+</head>
+
+<body>
+    <!-- 主頁 -->
+    <header>
+        <nav class="navbar">
+            <a href="./index.html" class="alogo"><img src="./images/logo/logo f.svg" alt=""></a>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="head">
+                <li><a href="./newaboutus.html">About Us</a></li>
+                <li><a href="./shophead.html">Shop</a></li>
+                <li><a href="./customize.html">Coustomize</a></li>
+                <li><a href="/newstudio.html">Hire</a></li>
+                <li><a href="./location.html">Map</a></li>
+                <li><a id="mymodalboxBtn"><i class="fas fa-user"></i></a></li>
+                <li><a href=""><i class="fas fa-cart-arrow-down"></i></a></li>
+                <li><a href=""><i class="fas fa-globe"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- modal box -->
+    <div id="modalout">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img class="logo" src="./images/logo/logo f.svg" alt="">
+            <div class="sign">
+                <input class="account" type="text" placeholder="account" required>
+                <input class="password" type="text" placeholder="password" required>
+                <input class="submit" type="submit" value="submit" style="cursor: pointer;">
+            </div>
+            <hr style="width: 100%;margin-bottom:0">
+            <div class="icon">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-google-drive"></i></a></li>
+                    <li> <a href=""><i class="fa-brands fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
+                </ul>
+            </div>
+            <a class="forget tran1" href="">
+                <h1>forget password?</h1>
+            </a>
+            <a class="forget tran1" href="">
+                <h1>sign up</h1>
+            </a>
+        </div>
+    </div>
+    <!-- 大圖區 -->
+    <div class="block">
+        <p>home/studio</p>
+    </div>
+    <!-- main pic -->
+    <!-- 主圖片 -->
+    <div class="mainpic" style="background-image:url(./images/newstudio/centerstage_studio-3_control_2@2x.jpg);"></div>
+
+    <!-- 主要區塊 -->
+    <main class="art">
+        <span class="span">
+            <h1>EXPLORE. PLAY. HIRE.</h1>
+        </span>
+        <article class="twopic">
+            <div class="reheardal">
+                <img src="./images/newstudio/273568560_4780047742063789_5733062131417000028_n 1 (2).png" alt="">
+                <span class="introduce1">
+                    <h2>GEEKY GURUS</h2>
+                    <h1>Rehearsal room</h1>
+                    <p>Our knowledgeable experts at the Gibson Garage
+                        are happy to serve people and instruments of all ages.
+                        Whether you're looking for the right piece
+                        of new equipment</p>
+                </span>
+            </div>
+            <div class="RECORDING">
+                <img src="./images/newstudio/GettyImages-1151191504-900x601 1 (3).png" alt="">
+                <h2>RECORDING</h2>
+                <h1>Sound Engineer</h1>
+                <p>Vision Statement To educate, develop and inspire students to achieve their full musical
+                    potential and provide them the skills for lifelong enjoyment of music.</p>
+            </div>
+        </article>
+    </main>
+    <span class="span">
+        <h1>TRY AND Hire</h1>
+    </span>
+    <div class="tryandhire">
+        <img src="./images/studio/home_slider3.jpg" alt="">
+        <div class="word">
+            <h2>EQUIPMENT</h2>
+            <h1>Instruments, Amps and Pro Audio</h1>
+            <p>Try out the latest and greatest equipment
+                from all <br> of our brands. With instruments at every
+                price point, and Gurus to guide you, the Garage
+                is the place to <br> launch your artistic adventure</p>
+        </div>
+    </div>
+    <span class="span">
+        <h1>Equipment</h1>
+    </span>
+    <section>
+        <ul class="threepic">
+            <li class="equ"><img src="./images/studio/ua-apollo 1.png" alt="">
+                <div class="content">
+                    <h1>Audio Interface</h1>
+                    <p>Make basic recordings with any modern computer, laptop or tablet as they all come with
+                        built in sound card. You can improve the sound of your recordings to some extent.</p>
+                </div>
+            </li>
+            <li class="equ"><img src="./images/studio/download-5- 1.png" alt="">
+                <div class="content">
+                    <h1>Monitoring Recording</h1>
+                    <p>In any music recording there will be a producer and an engineer. These days, one person might
+                        carry out both roles, but it is useful to consider them separately.</p>
+                </div>
+            </li>
+            <li class="equ"><img src="./images/studio/0473b032f50b71948db4c9eace73f041 1.png" alt="">
+                <div class="content">
+                    <h1>Sofa in recording room</h1>
+                    <p>Lounge for the longer road,Once your eyes feel tired, you must rest your eyes well.That's what it
+                        exists for.You are welcome to lie down when you feel tired</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <span class="span">
+        <h1>Price list
+        </h1>
+    </span>
+    <div class="thelast">
+        <div class="last">
+            <h3> ☞Frist hour for free! <br>
+                OUR RATES: <br>
+                1 Hr / $40 <br>
+                2 Hr / $75 <br>
+                3Hr / $115</h3>
+            <h2>Please contact us at <br>
+                email: <br>
+                Brandon@geekyguitar.com </h2>
+        </div>
+        <span class="booknow">
+            <h4>WHAT ARE YOU WAITING FOR?
+                BOOK NOW?</h4>
+            <button class="bnt1">BOOK NOW</button>
+        </span>
+    </div>
+    <footer>
+        <div class="foot">
+            <div class="t1">
+                <a class="t1title">
+                    <h4>About</h4>
+                </a>
+                <ul class="open1">
+                    <li><a href="">
+                            <h5>Our Story</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Core Values</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>introducio</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>contact us</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t2">
+                <a class="t2title">
+                    <h4>Support</h4>
+                </a>
+                <ul class="open2">
+                    <li><a href="">
+                            <h5>Contact us</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Brand</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Coustom</h5>
+                        </a></li>
+                    <li><a href="">
+                            <h5>Warranty</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t3">
+                <a href="">
+                    <h4>Newsletter</h4>
+                </a>
+                <ul>
+                    <li><input type="text" class="email" placeholder="email address">
+                    </li>
+                    <li><a class="sub" href="">
+                            <h5>submit</h5>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="t4">
+                <a href="">
+                    <h4>Join the club</h4>
+                </a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="home">
+            <ul>
+                <li><a href="">
+                        <h5>Home</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Contant us</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Custom list</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>About</h5>
+                    </a></li>
+                <li><a href="">
+                        <h5>Term</h5>
+                    </a></li>
+            </ul>
+        </div>
+        <div class="under">
+            <h5>Geeky Guitars | ©2016 JS Technologies, INC.</h5>
+        </div>
+    </footer>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }</script>
+    <!-- <script src="../custom.js"></script> -->
+    <script src="./js//index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,760 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    display: none;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+/* @media all and (max-width:768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .history {
+        margin-right: 0 10%;
+    }
+} */
+
+h2 {
+    font-size: 0.875rem;
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: bolder;
+    letter-spacing: 1rem;
+    padding-top: 5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.text>h5 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* @media all and (max-width:992px) {
+    .text>h5 {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:992px) {
+    main {
+        height: 800px;
+    }
+} */
+
+.word>h5 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* @media all and (max-width:992px) {
+    .word>h5 {
+        font-size: 16px;
+    }
+} */
+
+p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(228, 226, 213);
+}
+
+/* @media all and (max-width:992px) {
+    main {
+        height: 800px;
+    }
+}
+
+@media all and (max-width:768px) {
+    main {
+        height: 90vw;
+    }
+}
+
+@media all and (max-width:576px) {
+    main {
+        height: 76vw;
+    }
+} */
+
+.art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 620px; */
+    padding: 5% 0;
+}
+
+.artabout {
+    display: flex;
+    justify-content: center;
+}
+
+/* @media all and (max-width:992px) {
+    .art {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+    }
+} */
+
+.art img {
+    padding: 0 4%;
+    width: 50%;
+    display: block;
+}
+
+/* @media all and (max-width:992px) {
+    .art img {
+        padding: 2rem 10% 2rem 10%;
+        width: 100%;
+    }
+} */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3.5rem;
+    line-height: 1.6;
+}
+
+/* 
+@media all and (max-width:992px) {
+    .about {
+        padding: 0 10%;
+    }
+}
+
+@media all and (max-width:576px) {
+    .about p {
+        display: none;
+    }
+} */
+
+
+
+video {
+    height: auto;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    top: 0;
+    display: flex;
+}
+
+.myBtn {
+    border-radius: 50%;
+}
+
+/* 背景 */
+.backgound {
+    background-image: url(../images/new.aboutus/warhawk-v4\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 58.4rem; */
+    position: relative;
+    padding-bottom: 50%;
+    text-align: center;
+    z-index: 10000;
+}
+
+@media all and (max-width:1200px) {
+    .backgound {
+        padding-bottom: 70%;
+    }
+}
+
+hr {
+    width: 84%;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+
+.alldotc {
+    display: flex;
+}
+
+/* 
+@media all and (max-width:992px) {
+    .alldotc {
+        display: none;
+    }
+
+    .backgound {
+        padding-bottom: 40%;
+    }
+
+    .backgound hr {
+        display: none;
+    }
+} */
+
+/* @media all and (max-width:768px) {
+    .backgound {
+        padding-bottom: 20%;
+    }
+
+} */
+
+.dotc {
+    /* background-color:rgb(81,93,89); */
+    background-image: url(../images/new.aboutus/186-puzzle-outline\ \(1\).gif);
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 39.5%;
+    border: none;
+    cursor: pointer;
+}
+
+/* 圓圈位置 */
+button {}
+
+.one {
+    left: 8%;
+
+}
+
+.two {
+    left: 31%;
+}
+
+.three {
+    left: 51%;
+}
+
+.four {
+    left: 71%;
+}
+
+.five {
+    left: 91%;
+}
+
+/* time */
+.year {
+    position: absolute;
+    top: 34%;
+}
+
+.time {
+    position: absolute;
+    top: 45%;
+}
+
+.text {
+    position: absolute;
+    top: 44%;
+    text-align: left;
+    line-height: 1.6;
+    transition: all .5s ease-in-out;
+    animation: text 1s ease-in-out 1 forwards;
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* @media all and (max-width:992px) {
+    .text p {
+        display: none;
+    }
+} */
+
+.word {
+    position: absolute;
+    top: 18%;
+    text-align: left;
+    line-height: 1.6;
+    transition: all .5s ease-in-out;
+    animation: text 1s ease-in-out 1 forwards;
+}
+
+/* @media all and (max-width:992px) {
+    .word p {
+        display: none;
+    }
+}
+
+@media all and (max-width:992px) {
+    .word {
+        top: 25%;
+    }
+} */
+
+
+/* undergound */
+.undergound {
+    background-image: url(../images/new.aboutus/under\ 1.png);
+    width: 100%;
+    padding-bottom: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+    /* top: 70%; */
+}
+
+.about.ab {
+    padding-top: 5rem;
+    text-align: left;
+    margin-right: 5rem;
+}
+
+/* @media all and (max-width:992px) {
+    .about.ab {
+        margin-right: 0;
+        flex-direction: row;
+        padding: 5%;
+    }
+} */
+
+/* @media all and (max-width:768px) {
+    .about.ab p {
+        display: none;
+    }
+}
+
+@media all and (max-width:768px) {
+    .text2 {
+        justify-content: center;
+    }
+} */
+
+.text2 {
+    display: flex;
+    justify-content: end;
+}
+
+.color {
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    background-color: #d0cebb96;
+    bottom: 0;
+}
+
+/* 
+@media all and (max-width:768px) {
+    .color {
+        height: 10vw;
+    }
+} */
+
+
+@media screen and (max-width:1600px) {
+    hr {
+        left: 14.5%;
+        width: 70%;
+    }
+
+    .one {
+        left: 14%;
+    }
+
+    .two {
+        left: 31%;
+    }
+
+    .three {
+        left: 49%;
+    }
+
+    .four {
+        left: 67%;
+    }
+
+    .five {
+        left: 83%;
+    }
+
+    .about.ab {
+        padding-top: 2%;
+    }
+
+    .color {
+        height: 28%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        padding-top: 4%;
+    }
+
+    .word {
+        top: 14%;
+    }
+
+    .one {
+        left: 12.5%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .word,
+    .text {
+        max-width: 20%;
+    }
+}
+
+@media screen and (max-width:1136px) {
+    .color {
+        height: 21%;
+    }
+
+    .word {
+        top: 13%;
+    }
+
+    .word,
+    .text {
+        max-width: 23%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    ul.alldotc p {
+        display: none;
+    }
+
+    .text {
+        top: 48%;
+    }
+
+    .word {
+        top: 26%;
+    }
+
+    .color {
+        height: 28%;
+    }
+
+    .about.ab {
+        margin-right: 0;
+    }
+
+    .about {
+        padding: 0 2%;
+
+    }
+
+    .art img {
+        padding: 0 3%;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .artabout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .art img {
+        width: 90%;
+    }
+
+    .about {
+        align-items: center;
+        padding-top: 4%;
+    }
+
+    .about p {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .color {
+        height: 32%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    hr {
+        transform: rotate(90deg);
+        transition: all .5s ease-in-out;
+        top: 44%;
+        left: 17.5%;
+    }
+
+    .backgound {
+        padding-bottom: 100%;
+    }
+
+    .color {
+        height: 23%;
+    }
+
+    .one {
+        top: 14%;
+    }
+
+    button.dotc {
+        left: 51%;
+    }
+
+    div.text {
+        left: 10%;
+    }
+
+    div.year {
+        left: 55%;
+    }
+
+    ul.alldotc p {
+        display: block;
+    }
+
+    .two {
+        top: 29%;
+    }
+
+    div.word {
+        left: 61%;
+    }
+
+    .three {
+        top: 43%;
+    }
+
+    .four {
+        top: 57%;
+    }
+
+    .five {
+        top: 73%;
+    }
+
+    .word.two {
+        top: 23%;
+    }
+
+    .text.three {
+        top: 30%;
+    }
+
+    .text.five {
+        top: 56%;
+    }
+
+    .about.ab {
+        align-items: start;
+    }
+
+    .about.ab p {
+        text-align: left;
+    }
+
+    div.time {
+        left: 41.5%;
+    }
+
+    .word,
+    .text {
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width:660px) {
+    ul.alldotc p {
+        display: none;
+    }
+
+    h3 {
+        padding-bottom: 3%;
+        font-size: 25px;
+    }
+
+    .text2 {
+        display: block;
+    }
+
+    .about.ab>li:nth-child(3) {
+        display: none;
+    }
+
+    .color {
+        height: 10%;
+    }
+
+    .backgound {
+        padding-bottom: 85%;
+    }
+
+    .about.ab {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    hr {
+        top: 50%;
+    }
+
+    .one {
+        top: 16%;
+    }
+
+    .two,
+    .word.two {
+        top: 33%;
+    }
+
+    div.word {
+        left: 57%;
+    }
+
+    .three {
+        top: 48%;
+    }
+
+    .text.three {
+        top: 48%;
+    }
+
+    div.text {
+        left: 13%;
+    }
+
+    .four {
+        top: 66%;
+    }
+
+    .five,
+    .text.five {
+        top: 83%
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    h3 {
+        font-size: 20px;
+        padding-top: 2%;
+        padding-bottom: 1%;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .text>h5,
+    .word>h5 {
+        font-size: 16px;
+    }
+
+    div.text {
+        left: 8%;
+    }
+
+    div.year {
+        left: 59%;
+    }
+
+    div.time {
+        left: 38.5%;
+    }
+
+}
+
+@media screen and (max-width:486px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        letter-spacing: .7rem;
+    }
+
+    .about p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        letter-spacing: .5rem;
+    }
+
+    div.text {
+        left: 5%;
+    }
+
+    div.word {
+        left: 59%;
+    }
+
+    button.dotc {
+        left: 50%;
+    }
+
+    .text.five {
+        top: 75%;
+    }
+}

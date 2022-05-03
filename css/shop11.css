@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Marcellus SC', serif;
+    font-weight: bolder;
+}
+
+div.mainpic{
+    background-image: url(../shop1/688984.jpg);
+    width:100%;
+    height: 389px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+div.mainpic>h1{
+    position: absolute;
+    top: 40%;
+    left: 18%;
+}
+@media all and (max-width:1200px){
+    div.mainpic>h1{
+        font-size: 2.6rem;
+    }
+}
+/* nav */
+.bar{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0 .8rem 0;
+}
+.bar li{
+    flex-grow: 1;
+    line-height: 20px;
+    text-align: center; 
+}
+.bar li>a{
+
+    display: block;
+
+}
+.bar a{
+    text-decoration: none;
+    color: black
+}
+hr{
+    width:80%;
+}
+.bar>li{
+    font-size: 1.125rem;
+    font-weight: bolder
+}
+
+/* picture */
+main{
+    width: 100%;
+}
+.grid{
+    grid-gap: 1.6em;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 8em;
+} 
+@media screen and (max-width:1200px){
+   .grid{
+    grid-template-columns: 1fr 1fr ;
+    }
+}
+.grid>li{   
+    background-color: hsla(0,0%,96%,.6);
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    grid-column: span 1;
+    /* padding: 2em; */
+    position: relative;
+    border:  3px solid green;
+}
+.in-card{
+    height: 50.125rem;
+    display: inline-block;
+    border:  2px solid blue;
+}
+.card{
+    background-image: url(../shop1/reverend_bob-balch-signature-guitar_violin_brown_front.png);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    clear: both;
+    transform: rotate(-90deg);
+    width: 100%;
+    border: 2px solid red;
+    background-position: 0% 50% ;
+}
+.text h2{
+    text-align: center;
+    color: black;
+}
+
