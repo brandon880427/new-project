@@ -1,13 +1,15 @@
-*{
+* {
     box-sizing: border-box;
 }
-h1{
+
+h1 {
     font-size: 3rem;
     color: white;
     font-family: 'Marcellus SC', serif;
     font-weight: bolder;
 }
-h2{
+
+h2 {
     font-size: 1.8rem;
     color: black;
     font-family: 'Squada One', cursive;
@@ -15,117 +17,135 @@ h2{
     text-align: center;
 }
 
-div.mainpic{
-    background-image: url(../shop2/acoustic-guitar-header-web.jpg);
-    width:100%;
+div.mainpic {
+    background-image: url(/images/shop2/acoustic-guitar-header-web.jpg);
+    width: 100%;
     height: 40vw;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
 }
-div.mainpic>h1{
+
+div.mainpic>h1 {
     position: absolute;
     top: 40%;
     left: 18%;
 }
-@media all and (max-width:1200px){
-    div.mainpic>h1{
-     font-size: 2.5rem;
-     }
- }
- @media all and (max-width:576px){
-    div.mainpic>h1{
-     font-size: 1.5rem;
-     left: 12%;
-     }
- }
+
+@media all and (max-width:1200px) {
+    div.mainpic>h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width:576px) {
+    div.mainpic>h1 {
+        font-size: 1.5rem;
+        left: 12%;
+    }
+}
+
 /* nav */
-.bar{
+.bar {
     display: flex;
     width: 80%;
     margin: 0 auto;
     padding: 3rem 0 .8rem 0;
 }
-.bar li{
+
+.bar li {
     flex-grow: 1;
     line-height: 20px;
-    text-align: center; 
+    text-align: center;
 }
-.bar li>a{
+
+.bar li>a {
 
     display: block;
 
 }
-.bar a{
+
+.bar a {
     text-decoration: none;
     color: black
 }
-@media all and (max-width:576px){
-    .bar h4{
+
+@media all and (max-width:576px) {
+    .bar h4 {
         font-size: .8rem;
     }
 }
-hr{
-    width:80%;
+
+hr {
+    width: 80%;
 }
-.bar>li{
+
+.bar>li {
     font-size: 1.125rem;
     font-weight: bolder
 }
+
 /* coco */
-.coco{
+.coco {
     width: 80%;
     margin: 0 auto;
     display: block;
     padding: .4rem 0;
 }
-.coco h5{
+
+.coco h5 {
     font-size: 18px;
     line-height: 1.6;
     color: black;
     letter-spacing: 3px;
 }
-.coco h5 a{
+
+.coco h5 a {
     color: black;
-   
+
 }
+
 /* picture 商品主圖 */
 /* 格線須調整 */
-.grid{
+.grid {
     display: grid;
     grid-gap: 1.6rem;
     grid-auto-flow: dense;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 auto;
-    max-width: 100rem ;
+    max-width: 100rem;
     /* padding:0 10vw; */
     width: 80%;
 }
-@media all and (max-width:1200px){
-    .grid{
-     grid-template-columns: 1fr 1fr 1fr;
-     /* display: none; */
-     }
- }
-@media all and (max-width:992px){
-    .grid{
-     grid-template-columns: 1fr 1fr;
-     /* display: none; */
-     }
- }
- @media all and (max-width:576px){
-    .grid{
-     grid-template-columns: 100%;
-     /* display: none; */
-     }
- }
+
+@media all and (max-width:1200px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        /* display: none; */
+    }
+}
+
+@media all and (max-width:992px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        /* display: none; */
+    }
+}
+
+@media all and (max-width:576px) {
+    .grid {
+        grid-template-columns: 100%;
+        /* display: none; */
+    }
+}
+
 /* a連結 */
-.card{
+.card {
     display: flex;
     flex-direction: column;
     /* border: 2px solid green; */
-    background-color: hsla(0,0%,96%,.6);
+    background-color: hsla(0, 0%, 96%, .6);
     border-radius: 0.75rem;
     padding: 1.5rem;
     grid-column: span 1;
@@ -133,12 +153,14 @@ hr{
     overflow: hidden;
     height: 100%;
 }
-@media all and (max-width:1200px){
-    .card{
-       height: 100%;
+
+@media all and (max-width:1200px) {
+    .card {
+        height: 100%;
     }
-   }
-.img{
+}
+
+.img {
     display: inline-block;
     height: 23.125vw;
     width: 100%;
@@ -147,66 +169,75 @@ hr{
     position: relative;
     /* border: 2px solid rgb(0, 0, 0); */
 }
-@media all and (max-width:1400px){
-    .img{
+
+@media all and (max-width:1400px) {
+    .img {
         margin: -2rem 0 -1.6rem;
     }
-   }
-   @media all and (max-width:992px){
-    .img{
+}
+
+@media all and (max-width:992px) {
+    .img {
         margin: -2rem 0 .7rem;
     }
-   }
-   @media all and (max-width:576px){
-    .img{
+}
+
+@media all and (max-width:576px) {
+    .img {
         height: 50vw;
     }
-   }
-.insideimg{
+}
+
+.insideimg {
     background-position: 47% 110%;
     background-repeat: no-repeat;
     background-size: 80%;
     clear: both;
     position: relative;
     display: inline-block;
-    height:100%;
+    height: 100%;
     float: none;
     left: -25%;
     width: 150%;
     /* transform: rotate(-90deg); */
-    transition: all .2s ease-in-out;     
-}   
-@media all and (max-width:1200px){
-    .insideimg{
+    transition: all .2s ease-in-out;
+}
+
+@media all and (max-width:1200px) {
+    .insideimg {
         background-size: 60%;
     }
-   }
-   @media all and (max-width:992px){
-    .insideimg{
+}
+
+@media all and (max-width:992px) {
+    .insideimg {
         background-position: 47% 91%;
         background-size: 46%;
     }
-   }
-   
+}
+
 
 /* 文字 */
-a{
+a {
     text-decoration: none;
 }
-.text{
-    text-align:left;
+
+.text {
+    text-align: left;
 }
 
 
 /* hover */
-.card:hover{
-        background-color: hsla(0,0%,96%,.86);
+.card:hover {
+    background-color: hsla(0, 0%, 96%, .86);
 }
-a:hover .img>div{
-    background-position:47% 130%;
-    background-image: url(../shop1/Fender-Stratocaster-1965-.png); 
+
+a:hover .img>div {
+    background-position: 47% 130%;
+    background-image: url(../shop1/Fender-Stratocaster-1965-.png);
 }
-a:hover .color{
+
+a:hover .color {
     opacity: 1;
 }
 
@@ -214,7 +245,7 @@ a:hover .color{
 
 
 /* 站兩圖 */
-a.featured-card{
+a.featured-card {
     grid-column: span 2;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -226,25 +257,34 @@ a.featured-card{
     justify-content: flex-end;
     align-items: flex-end;
 }
-@media all and (max-width:1200px){
-    a.featured-card{
-        padding:1rem}
+
+@media all and (max-width:1200px) {
+    a.featured-card {
+        padding: 1rem
     }
-    @media all and (max-width:992px){
-        a.featured-card{
-            height: 40vw;}
-        }
-        @media all and (max-width:576px){
-            a.featured-card{
-                height: 50vw;
-                grid-column: span 1;}
-            }
-span.featured{
-display: block;
-padding: 1rem 2rem;
 }
-a h1{
-    font-family:'Squada One', cursive;;
+
+@media all and (max-width:992px) {
+    a.featured-card {
+        height: 40vw;
+    }
+}
+
+@media all and (max-width:576px) {
+    a.featured-card {
+        height: 50vw;
+        grid-column: span 1;
+    }
+}
+
+span.featured {
+    display: block;
+    padding: 1rem 2rem;
+}
+
+a h1 {
+    font-family: 'Squada One', cursive;
+    ;
 }
 
 
@@ -253,7 +293,7 @@ a h1{
 
 
 /* 看情況補 */
-.s{
+.s {
     width: 100%;
     height: 50px;
 }
