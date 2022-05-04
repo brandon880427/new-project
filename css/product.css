@@ -148,6 +148,12 @@ main {
     padding-left: 110px;
 }
 
+@media screen and (max-width:500px) {
+    .button {
+        padding-left: 70px;
+    }
+}
+
 /* swiper消失 */
 
 @media all and (max-width:576px) {
