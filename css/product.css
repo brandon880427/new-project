@@ -109,9 +109,15 @@ main {
     padding: 0 20%;
 }
 
-@media all and (max-width:576px) {
+@media screen and (max-width:700px) {
     .model {
         padding: 0 10%;
+    }
+}
+
+@media all and (max-width:576px) {
+    .model {
+        padding: 0 8%;
 
     }
 }
@@ -356,7 +362,7 @@ article {
     margin-right: auto;
     /* max-width: 68em; */
     position: relative;
-    width: calc(100% - 10rem);
+    /* width: calc(100% - 10rem); */
 }
 
 @media all and (max-width:850px) {
@@ -374,7 +380,7 @@ article {
         padding-left: 0;
     }
 
-    .text h3 {
+    .text h4 {
         min-width: 130px;
     }
 }
